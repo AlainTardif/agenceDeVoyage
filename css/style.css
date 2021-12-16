@@ -12,9 +12,9 @@ body {
 }
 
 h1 {
-   font-family: 'Crete Round', serif;
-   font-size: 45px;
-   color: #444;
+  font-family: "Crete Round", serif;
+  font-size: 45px;
+  color: #444;
 }
 
 h2 {
@@ -42,13 +42,22 @@ a {
 }
 
 .wrapper {
-  width: 1080px;
+  width: 1000px;
   margin: 0 auto;
   padding: 0 10px;
 }
 
 .orange {
   color: #ff7a00;
+}
+
+.clear {
+  clear: both;
+}
+
+small {
+  font-size: 13px;
+  font-style: italic;
 }
 
 /* header */
@@ -88,7 +97,6 @@ header nav ul li a {
   text-align: center;
   padding: 150px 0 40px 0;
   margin-bottom: 20px;
-
 }
 
 .btn-1 {
@@ -142,4 +150,64 @@ header nav ul li a {
 }
 .step-3 {
   background: url(../assets/img/steps-icon-3.png) no-repeat top center;
+}
+
+/* Possibilities */
+
+.img-art1 {
+  background-image: url(../assets/img/article-image-1.jpg);
+}
+
+.img-art2 {
+  background-image: url(../assets/img/article-image-2.jpg);
+}
+
+.possibilities {
+  background-color: #efefef;
+  padding: 60px 0;
+}
+
+.possibilities article {
+  width: 460px;
+  height: 270px;
+  float: left;
+  border-radius: 10px;
+}
+
+.possibilities article:first-child {
+  margin-right: 20px;
+}
+
+.overlay {
+  background: rgba(255,255,255, 0.95);
+  height: 100%;
+  width: 220px;
+  padding: 20px;
+  border-radius: 10px 0 0 10px;
+  text-align: center;
+}
+
+article h4 {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.possibilities p {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.btn-2 {
+  color: #fff;
+  background-color: #ff7a00;
+  padding: 6px 20px;
+  border-radius: 3px;
+}
+
+.btn-2:hover {
+  color: #fff;
+  background-color: #02b8dd;
 }
